@@ -1,0 +1,1559 @@
+
+.container {
+margin-left:15px;
+}
+.date{
+	font-size: 12px; 
+	color:#879eac;
+	display:block;
+	margin-bottom:10px;
+}
+
+.series-name0, .series-name1{
+	color:#3c5d6c; 
+	font-family:"Open Sans";
+	font-size: 14px;
+	 display:block;
+}
+ .series-name1{
+	 color:#92d2f1;
+	 margin-top:10px;
+ }
+.point0{
+	 display:block;
+font-size: 35px; 
+font-weight:bold; 
+font-family:"Open Sans";
+    color: #d3af6b;
+	line-height:30px;}
+
+.point1{
+	 display:block;
+font-size: 35px; 
+font-weight:normal; 
+font-family:"OSLight";
+	color:#92d2f1;
+	line-height:30px;
+	
+}
+.highcharts-tooltip span .point:nth-child(2){
+	font-weight:normal;
+	
+}
+.bench{
+	color:#92d2f1
+}
+
+.bench-point{
+	font-size: 18px;
+	color:#a8dbf4;
+	font-family:OsLight;
+	font-weight:normal;
+	
+}
+h3 {
+text-align:center;
+}
+.highcharts-legend-item text, .bench, .benchs, .print, .xls{
+	font-size:13px!important;
+	font-family: "Open Sans"!important;
+	font-weight:500;
+		
+	
+}
+.highcharts-legend-item rect{
+	width:12px;
+	height:12px;
+	x:5;
+	y:8;
+	
+}
+.list{
+	margin:20px 0;
+
+	
+}
+.l-main .body .list li{
+	font-size: 14pt;
+	margin-left:10px;
+	font-family: "OSLight";
+}
+.tabs-nav {
+    display: flex;
+    flex-direction: row;
+	padding-left:20px;
+    width: 98.3%;
+	
+}
+.tabs-nav__item {
+	/*flex:1;*/
+	cursor:pointer;
+	position: relative;
+	border-top: 7px solid #aa4b25;
+	padding:20px 30px;
+	padding-bottom:18px;
+	color:white;
+	background-color: #d2d3d6;
+	z-index: 1;
+	width:33.5%;
+	font-size:25px;
+	font-family:'Open Sans';
+	text-align:center;
+	position:relative;
+	border-right: 1px solid #fff;
+
+}
+.tabs-nav__item span{
+	font-family:"OSLight";
+	
+}
+.tabs-nav__item:first-child{
+	text-align:left;
+	border-top: 7px solid #d2af6c;
+	
+}
+.tabs-nav__item:nth-child(2n){
+	border-top: 7px solid #c99857;
+}
+.tabs-nav__item:last-child{
+	text-align:right;
+	border-top: 7px solid #a94b1c
+	
+	
+}
+
+.tabs-nav__item span b{
+	font-weight:300;
+	font-family:'Open Sans';
+}
+.tabs-nav__item a.more{
+	display:block;
+	margin-top:15px;
+	font-size:15px;
+	color:#dcc18f;
+	text-transform:uppercase;
+	text-decoration:underline;
+	position:absolute;
+	
+}
+.tabs-nav__item a{
+	left:35%;
+}
+.tabs-nav__item:first-child a.more{
+	left:30px;
+}
+.tabs-nav__item:last-child a.more{
+	right:30px;
+	
+}
+.tabs-nav__item a:hover{
+	text-transform:uppercase;
+}
+.btn {
+margin-left:-15px;
+margin-top:-45px;
+}
+
+.tabs-nav__item.is-active {	
+	background-color:#f6f9fb;
+	color:#5e7584;
+	z-index: 2;
+
+}
+
+
+.tab{
+	/*display:none;*/
+	padding:0 20px;
+}
+
+/*.tabs__nav.tabs-nav {
+	border:1px solid #ccc;
+	
+}*/
+
+
+/*.highcharts-button-box {
+	width: 59px;
+}*/
+.highcharts-range-input {
+	cursor: pointer;
+	transform: translate(70px,0);
+}
+.highcharts-range-label{
+	transform: translate(166px,0);
+}
+path.highcharts-navigator-handle-right {
+	fill: #d4b171;
+	stroke:#f5f9fc;
+}
+
+ path.highcharts-navigator-handle-left {
+     fill: #d4b171;
+     stroke:#f5f9fc;
+ }
+
+.highcharts-button-xls {
+    width: 120px;
+}
+
+.highcharts-button-xls:hover {
+    text-decoration: underline;
+}
+
+.highcharts-button-print {
+    width: 100px;
+}
+
+.highcharts-button-print:hover {
+    text-decoration: underline;
+}
+.graph_background{
+	background:#dfebf1;
+	width:100%;
+	height:760px;
+	margin-top:50px;
+	padding-top:50px;
+}
+.graph_title{
+	text-transform:uppercase;
+	font-size:40px;
+	margin-bottom:27px;
+	line-height:45px;
+}
+.graph-container{
+	width:100%;
+	height:500px;
+	position:relative;
+	
+	
+}
+.xls, .print, .bench, .benchs{
+	font-size:16px;
+	font-weight:500;
+	color:#516b7ae6;
+	cursor:pointer;
+	fill:#516b7ae6;
+	display:inline-block;
+		position:relative;
+}
+.highcharts-button-xls{
+	position:relative;
+}
+.highcharts-button-xls{
+	 background: url(images/load.png) left;
+	 width:23px;
+	 height:23px;
+	
+}
+
+
+/*@media print {
+   .highcharts-title{
+	transform: translate(-117px,80px);
+	
+}
+}*/
+
+.highcharts-input-group{
+	transform: translate(881px,-162px);
+}
+
+.highcharts-range-input:last-child{
+	transform: translate(165px,0);
+	
+}
+.highcharts-input-group .highcharts-range-label:last-child{
+	transform: translate(148px,0);
+	
+}
+
+.highcharts-range-input text{
+		border-bottom:1px solid #d3af6b;
+
+	
+}
+.highcharts-range-selector-buttons{
+	transform: translate(485px,-121px);
+	}
+.dohod{
+	color:#d3af6b;
+	text-align: left;
+	font-size:26px;
+	font-family:'OSLight';
+	display:block;
+	
+	
+}
+.dinamika{
+	font-size:13px;
+	line-height:13px;
+	padding:24px 12px 0 12px;
+}
+
+.graph-container .highcharts-label-box, graph_container .highcharts-label-box{
+    stroke: #56707f;
+	stroke-width: 1px!important;
+	stroke-linecap:round!important;
+	
+}
+
+rect.highcharts-label-box {
+    stroke-width: 1px!important;
+    width: 79px;
+    height: 0.2%;
+    stroke: #d3af6b!important;
+    x: 14px;
+    y: 21px;
+}
+.highcharts-button-pressed path{
+	stroke-dasharray:0;
+}
+
+.highcharts-button-box{
+	stroke-width: 1px;
+    height: 0.1px;
+	stroke:#d3af6b;
+	stroke-dasharray:5,2;
+    x:15px;
+	y:21px;
+	width:50px;
+}
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(9){
+	transform:translate(456px,-2px);
+	
+}
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(9) > rect {
+
+	x:80px;
+	width:120px;
+}
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(8) {
+	transform:translate(463px,-2px);
+}
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(8) > rect {
+    x: 21px;
+    width: 39px;
+}
+
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(7) {
+	transform:translate(403px,-2px);
+}
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(7) > rect {
+    x: 21px;
+    width: 46px;
+}
+
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(6) {
+	transform:translate(353px,-2px);
+}
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(6) > rect {
+    x: 21px;
+    width: 39px;
+}
+
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(5) {
+	transform:translate(296px,-2px);
+}
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(5) > rect {
+    x: 21px;
+    width: 45px;
+}
+
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(4) {
+	transform:translate(237px,-2px);
+}
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(4) > g > path {
+ d:"M5 40 l15 0";
+}
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(4) > rect {
+    x: 21px;
+    width: 45px;
+}
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(3) {
+    transform: translate(179px,-2px);
+}
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(2) {
+	transform:translate(64px,-2px);
+}
+
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(2) > rect {
+    x: 21px;
+    width: 106px;
+}
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(3) > rect {
+    x: 21px;
+    width: 45px;
+}
+g.highcharts-range-selector-group > g.highcharts-range-selector-buttons > g:nth-child(3) > g > path {
+ d:"M 140 20 l 160 0";
+}
+.highcharts-button-pressed .highcharts-button-box, .highcharts-button-hover .highcharts-button-box{
+	stroke-dasharray:0;
+	
+	
+}
+.highcharts-button-pressed text tspan{
+	font-weight:bold;
+}
+.highcharts-navigator-outline{
+	stroke-width:0.2px;
+fill:rgba(219,228,235,0.4);
+}
+.highcharts-navigator{
+	stroke-width:1px;
+	height:70px;
+	
+}
+
+.highcharts-range-selector{
+	top:20px!important;
+	margin-top:0!important;
+	left:970px!important;
+	box-shadow:none!important;
+	border:none!important;
+	
+
+
+	
+}
+
+.highcharts-range-selector-group{
+	transform: translate(0,188px);
+}
+
+/*
+ для паев
+*/
+
+.pais{
+	margin-top:30px;
+}
+.pais .graph_title{
+	margin-bottom:43px;
+}
+.pais .graph_container{
+	width:100%;
+	height:618px;
+	display:block;
+	padding:15px;
+	background:#f5f9fc;
+	
+}
+.pais{
+	height:800px
+}
+a.period{
+	color:#516b7a;
+	
+}
+.instrument{
+	width:405px;
+	margin:0 auto;
+	display:block;
+}
+@media only screen and  (min-width: 322px){
+.pais .highcharts-title {
+		transform: translate(-170px,14px);
+	}
+	.pais .highcharts-input-group{
+	   transform: translate(373px,-170px);
+}
+.pais .highcharts-button-icon {
+    transform: translate(431px,-170px);
+}
+.pais .highcharts-range-selector-group {
+    transform: translate(-51px,188px);
+}
+.pais .bench{
+	   transform: translate(0,-6px);
+
+}
+.pais .benchs{
+	   transform: translate(0,12px);
+
+}
+.pais .highcharts-button-print {
+    transform: translate(381px,10px);
+}
+.pais .highcharts-button-xls {
+    transform: translate(554px,10px);
+}
+.pais .highcharts-button-bench {
+    transform: translate(222px,10px);
+}
+.pais  .highcharts-legend-item:nth-child(2) {
+    transform: translate(8px,25px);
+}
+.pais .highcharts-range-selector{
+	    left: 390px!important;
+}
+.pais .highcharts-range-selector:last-child {
+   left: 489px!important;
+}
+.pais .periods {
+    position: absolute;
+    top: 77px;
+    right: 30px;
+}
+
+.graph_title span{
+	display:none;
+}
+.graphtab{
+	display:block;
+	background: #f5f9fc;
+	padding:0 23px;
+	width:100%;
+	height:506px;
+	
+}
+
+.graphtab .highcharts-title{
+	left:10px!important;
+}
+.graphtab .highcharts-range-selector-buttons {
+	display:none;
+}
+
+.graphtab .highcharts-button-icon {
+    transform: translate(431px,-170px);
+}
+.graphtab .highcharts-range-selector-group {
+    transform: translate(-51px,188px);
+}
+	.graphtab .highcharts-input-group{
+	   transform: translate(383px,-170px);
+}
+.more-button{
+	right:33px;
+}
+.graphtab .periods{
+	top:305px;
+	right:40px;
+	position:absolute;
+
+}
+
+.graphtab .bench{
+	   transform: translate(0,-6px);
+
+}
+.graphtab .benchs{
+	   transform: translate(0,12px);
+
+}
+.graphtab .highcharts-button-print {
+    transform: translate(401px,10px);
+}
+.graphtab .highcharts-button-xls {
+    transform: translate(564px,10px);
+}
+.graphtab .highcharts-button-bench {
+    transform: translate(254px,10px);
+}
+.graphtab .highcharts-legend-item:nth-child(2) {
+    transform: translate(8px,25px);
+}
+.graphtab .highcharts-legend{
+	transform: translate(0px,453px);
+	
+}
+
+
+.show-pk{
+		background:#dfebf1;
+	width:108%;
+	height:794px;
+	margin-top:50px;
+	padding-top:50px;
+	margin-left:-23px;
+
+	
+}
+.show-pk ul{
+	display:none;
+	
+}
+.single{
+		display:block;
+	background: #f5f9fc;
+	padding:33px 23px 0 23px;
+	width:108%;
+	height:550px;
+	margin-left:-23px;
+}
+
+
+.single .highcharts-title{
+	left:10px!important;
+	   
+}
+.single .highcharts-range-selector-buttons {
+	display:none;
+}
+
+.single .highcharts-button-icon {
+    transform: translate(411px,-170px);
+}
+	.single .highcharts-input-group{
+	   transform: translate(354px,-170px);
+}
+.single .periods{
+    position: absolute;
+    top: 90px;
+    right: 34px;
+}
+.single .bench{
+	   transform: translate(0,-6px);
+
+}
+.single .benchs{
+	   transform: translate(0,12px);
+
+}
+.single .highcharts-button-print {
+    transform: translate(425px,10px);
+}
+.single .highcharts-button-xls {
+    transform: translate(590px,10px);
+}
+.single .highcharts-button-bench {
+    transform: translate(264px,10px);
+}
+.single  .highcharts-legend-item:nth-child(2) {
+    transform: translate(8px,25px);
+}
+.single .highcharts-legend{
+	transform: translate(0px,453px);
+	
+}
+
+.show-mobile{
+	margin-top:54px;
+	
+}
+.tabs-mobile {
+    margin-top: 15px;
+}
+.ui-tabs .ui-tabs-nav li.tc {
+    padding-left: 0%;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a span{
+	border-bottom:2px solid #d3af6b;
+}
+.emitents{
+	padding-bottom:43px;
+	margin-bottom:43px;
+}
+.diagramm {
+    width: 100%;
+    height: 723px;
+}
+.digramm svg{
+	viewBox:"0 0 237 300";
+}
+
+.diagramm .highcharts-legend {
+      transform: translate(106px,400px);
+	 }
+	.diagramm .highcharts-series-group {
+    transform: translate(34px,-65px);
+	 }
+.branches{
+	height:700px;
+}
+.diagramm .highcharts-container{
+	height:700px!important;
+
+}
+.nomobs{
+	display:block;
+		
+}
+.ui-tabs .ui-tabs-nav li:last-child {
+    padding-left: 10%;
+}
+.question{
+	display:none!important;
+}
+.ui-tabs .ui-tabs-nav li:last-child {
+    padding-left: 10%;
+}
+ .btn {
+    padding: 15px;
+    color: #001f38;
+    font-size: 20px;
+    background: #d2af6c;
+    font-family: "OSLight";
+    line-height: 1;
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+	vertical-align:top;
+	text-align:center;
+}
+.mobs{
+	display:block;
+	margin:0 auto 20px auto;
+}
+#container-dia2 .highcharts-series-group{
+	transform: translate(114px,0px) scale(0.6,0.6);
+}
+.struktura {
+    font-size: 40px;
+}
+condition1 {
+    font-size: 18px;
+}
+body{
+	position: relative;
+}
+.highcharts-range-selector {
+    top: 0!important;
+    margin-top: 0!important;
+    left: 200px!important;
+}
+
+.highcharts-range-selector:last-child {
+    top: 0!important;
+    margin-top: 0!important;
+    left: 337px!important;
+}
+
+
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1165px) {
+	.single{
+	width:92%;
+	height:550px;
+	margin-left:-23px;
+	
+}
+}
+@media only screen and (min-width: 768px){
+
+.pais .highcharts-title {
+		transform: translate(-181px,14px);
+	}
+	.pais .highcharts-input-group{
+	   transform: translate(407px,-170px);
+}
+.pais .highcharts-button-icon {
+    transform: translate(461px,-170px);
+}
+.pais .highcharts-range-selector-group {
+    transform: translate(-51px,188px);
+}
+.pais .bench{
+	   transform: translate(0,-6px);
+
+}
+.pais .benchs{
+	   transform: translate(0,12px);
+
+}
+.pais .highcharts-button-print {
+    transform: translate(409px,10px);
+}
+.pais .highcharts-button-xls {
+    transform: translate(591px,10px);
+}
+.pais .highcharts-button-bench {
+    transform: translate(232px,10px);
+}
+.pais .highcharts-range-selector{
+	    left: 428px!important;
+}
+.pais .highcharts-range-selector:last-child {
+   left: 520px!important;
+}
+.pais  .highcharts-legend-item:nth-child(2) {
+    transform: translate(8px,25px);
+}
+.graph_title span{
+	display:none;
+}
+.pais .periods {
+    position: absolute;
+    top: 77px;
+    right: 30px;
+}
+<!-- для стратегии->
+.graph_title br{
+	display:block;
+}
+.highcharts-button-icon{
+    transform: translate(940px,-161px);
+}
+.highcharts-button-bench{
+	transform:translate(670px,0);
+}
+.tabs .highcharts-title{
+	left:10px!important;
+	   
+}
+
+.tab .highcharts-button-icon{
+        transform: translate(781px,-171px);
+}
+.tabs .highcharts-range-selector-buttons {
+	display:none;
+}
+.tab .highcharts-input-group {
+    transform: translate(729px,-173px);
+}
+.tabs .periods{
+    position: absolute;
+    top: 303px;
+    right: 50px;
+}
+
+.graphtab{
+	display:block;
+	background: #f5f9fc;
+	padding:0 23px;
+	width:100%;
+		height:506px;
+	
+}
+
+.graph_background{
+	height:800px;
+}
+.graphtab .highcharts-button-bench {
+    transform: translate(362px,10px);
+}
+
+.graphtab .highcharts-legend-item:nth-child(2){
+    transform: translate(8px,25px);
+}
+.graphtab .bench{
+	   transform: translate(0,-6px);
+
+}
+.graphtab .benchs{
+	   transform: translate(0,12px);
+
+}
+
+.graphtab .highcharts-button-print{
+	transform:translate(650px,10px);
+}
+.graphtab .highcharts-button-xls{
+	transform:translate(908px,10px);
+}
+.graphtab .highcharts-title{
+	left:10px!important;
+}
+
+.show-pk ul{
+	display:none;
+	
+}
+.single{
+		display:block;
+	background: #f5f9fc;
+	padding:33px 23px 0 23px;
+	width:94%;
+	height:550px;
+	margin-left:12px;
+	
+}
+
+
+.single .highcharts-title{
+	left:10px!important;
+	   
+}
+.show-pk{
+		background:#dfebf1;
+	width:108%;
+	height:760px;
+	margin-top:50px;
+	padding-top:50px;
+
+	
+}
+.single .highcharts-button-icon{
+        transform: translate(661px,-171px);
+}
+.single .highcharts-range-selector-buttons {
+	display:none;
+}
+.single .highcharts-input-group {
+    transform: translate(611px,-173px);
+}
+.single .periods{
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+
+.periods ul{
+	display:none;
+	position:absolute;
+	border:1px solid #617a88;
+	-webkit-border-radius:0 0  25px 25px;
+	-moz-border-radius:0 0  25px 25px;
+	border-radius:0 0  25px 25px;
+	border-top:none;
+	width:172px;
+	right:-10px;
+	padding:23px 0 13px 26px;
+	background:#f6f9fb;
+	
+	
+}
+.periods ul li{
+	margin-bottom:15px;
+	text-align:left;
+	
+}
+.periods ul li a{
+	color:#8b9ea9;
+	border-bottom:1px dashed #d3af6b;
+	font-family:'Open Sans';
+
+}
+.periods ul li a.active{
+	border-bottom:1px solid #d3af6b;
+	
+}
+.single .highcharts-button-bench {
+    transform: translate(362px,10px);
+}
+
+.single  .highcharts-legend-item:nth-child(2) {
+    transform: translate(8px,25px);
+}
+.single .bench{
+	   transform: translate(0,-6px);
+
+}
+.single .benchs{
+	   transform: translate(0,12px);
+
+}
+.single .highcharts-legend{
+	transform: translate(17px, 449px);
+}
+.single .highcharts-button-print{
+	transform:translate(625px,10px);
+}
+.single .highcharts-button-xls{
+	transform:translate(885px,10px);
+}
+#tabs-2{
+	display:none;
+}
+.show-mobile{
+	margin-top:43px;
+	
+}
+.more-button {
+    right: 55px;
+}
+.diagramm .highcharts-legend {
+         transform: translate(444px,200px);
+	 }
+	.diagramm .highcharts-series-group {
+    transform: translate(-20px,24px);
+	 }
+.mobs{
+	    margin: 0 auto 32px auto;
+}
+.digramm svg{
+	viewBox:"0 0 237 300";
+}
+.dinamika{
+	width:96%;
+}
+.ui-tabs .ui-tabs-nav li:last-child {
+    padding-left: 2%;
+}
+#container-dia2 .highcharts-series-group{
+	transform: translate(-20px,24px) scale(1,1);
+}
+.highcharts-range-selector {
+    top: 0!important;
+    margin-top: 0!important;
+    left: 600px!important;
+}
+
+.highcharts-range-selector:last-child {
+    top: 0!important;
+    margin-top: 0!important;
+    left: 637px!important;
+}
+.single .highcharts-range-selector {
+    top: 30px!important;
+}
+
+
+
+
+
+}
+@media only screen and (min-width: 1167px) {
+
+.pais .highcharts-title{
+	  left:194px!important;
+}
+
+.pais .highcharts-input-group{
+	   transform: translate(457px,-170px);
+}
+.pais .highcharts-range-selector-group{
+	transform: translate(20px,188px);
+}
+
+.pais .highcharts-button-icon{
+	     transform: translate(512px,-170px);
+}
+.pais .benchs{
+	     transform: translate(63px,0px);
+}
+.pais  .highcharts-button-print {
+    transform: translate(525px,10px);
+}
+.pais  .highcharts-button-xls {
+    transform: translate(712px,10px);
+}	
+.pais .highcharts-button-bench {
+    transform: translate(273px,10px);
+}
+.pais .bench{
+	   transform: translate(0,0);
+
+}
+.pais  .highcharts-legend-item:nth-child(2) {
+    transform: translate(8px,25px);
+}
+.pais .highcharts-range-selector {
+    top: 20px!important;
+    margin-top: 0!important;
+    left: 548px!important;
+}
+
+.pais .highcharts-range-selector:last-child {
+    top: 20px!important;
+    margin-top: 0!important;
+   left: 635px!important;
+}
+.pais .periods{
+	position:absolute;
+	top:80px;
+	right:30px;
+	display:block;
+}
+
+.single .periods{
+	display:none;
+}
+.graph_title br{
+	display:none;
+}
+.tabs{
+	margin-top:35px;
+}
+.tab-mobile{
+	display:none;
+}
+.highcharts-legend{
+	position:relative;
+	margin-left:-10px;
+	transform:translate(17px,457px);
+}
+.highcharts-button-print{
+	transform:translate(925px,0);
+}
+.highcharts-button-xls{
+	transform:translate(1105px,0);
+}
+.highcharts-button-bench{
+	transform:translate(667px,0);
+}
+.highcharts-title{
+	    transform: translate(-491px,24px);
+	
+}
+.tab .highcharts-button-icon{
+        transform: translate(932px,-161px);
+}
+.highcharts-range-selector-group {
+    transform: translate(-36px,188px);
+}
+.graph_background {
+    background: #dfebf1;
+    width: 100%;
+    height: 760px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.graphtab{
+	display:block;
+	background: #f5f9fc;
+	padding:0 23px;
+	width:100%;
+	height:506px;
+	
+}
+.graphtab .highcharts-range-selector-group {
+    transform: translate(-36px,188px);
+}
+.tabs .highcharts-range-selector-buttons {
+	display:block;
+}
+.tab .highcharts-input-group {
+    transform: translate(881px,-162px);
+}
+.tabs .highcharts-title {
+    left: 500px!important;
+}
+.graphtab .periods{
+	display:none;
+}
+.graphtab svg{
+	height:500px;
+}
+.graphtab .highcharts-legend-item:nth-child(2) {
+   transform: translate(127px, 3px);
+}
+.graphtab .highcharts-button-bench {
+    transform: translate(668px,0);
+}
+.graphtab .bench{
+	   transform: translate(-5px,0);
+
+}
+.graphtab .benchs{
+	   transform: translate(63px,0);
+
+}
+.graphtab .highcharts-button-print{
+	transform:translate(900px,0);
+}
+.graphtab .highcharts-button-xls{
+	transform:translate(1081px,0);
+}
+.single{
+		display:block;
+	background: #f5f9fc;
+	padding:0 23px;
+	width:100%;
+	
+	height:500px;
+	margin-left: 13px;
+	margin-top:29px;
+}
+.single .highcharts-title{
+	left:497px!important;
+	
+}
+.single  .highcharts-range-selector-group {
+    transform: translate(-26px,188px);
+}
+.single .highcharts-button-bench {
+     transform: translate(668px,0);
+}
+.single .bench{
+	   transform: translate(-5px,0);
+
+}
+.single .benchs{
+	   transform: translate(63px,0);
+
+}
+.single .highcharts-button-print{
+		transform:translate(900px,0);
+}
+.single .highcharts-button-xls{
+	transform:translate(1081px,0);
+}
+.mobt{
+	display:none;
+}
+.show-pk ul{
+	display:block;
+	
+}
+.show-pk{
+		background:none;
+	width:101%;
+	height:778px;
+	margin-top:-45px;
+	padding-top:50px;
+	padding-bottom:37px;
+
+	
+}
+.single  .highcharts-legend-item:nth-child(2) {
+   transform: translate(127px, 3px);
+}
+#tabs-2{
+	display:block;
+}
+
+.single .highcharts-input-group {
+    transform: translate(881px,-162px);
+}
+.single .highcharts-button-icon{
+        transform: translate(932px,-161px);
+}
+.single .highcharts-range-selector-buttons{
+	display:block;
+}
+.single .highcharts-legend {
+    transform: translate(17px, 455px);
+}
+.ui-tabs .ui-tabs-panel{
+	    height: 689px;
+		padding:1em 0;
+}
+.ui-tabs #tabs-1{
+	 height: 630px;
+}
+.ui-tabs #tabs-2{
+	 height: 670px;
+}
+
+.dia{
+	margin-top:47px;
+	
+}
+.ui-tabs .ui-tabs-nav li a {
+	font-size:37px;
+}
+.prem{
+	height:400px;
+}
+
+	.pais{
+		height:800px;
+	}
+	.mobs{
+	display:none;
+}
+.diagramm .highcharts-series-group {
+    transform: translate(0,0);
+}
+.diagramm .highcharts-legend {
+    transform: translate(303px,80px);
+}
+.diagramm {
+    height: 400px;
+}
+.branches {
+	height:410px;
+	    overflow: hidden;
+}
+.emitents{
+	margin-bottom:0;
+	
+}
+.emitent tr:last-child{
+	border: none;
+}
+.graph-container{
+	width:1125px:
+
+}
+.highcharts-range-selector {
+    top: -10px!important;
+    margin-top: 0!important;
+    left: 800px!important;
+}
+
+.highcharts-range-selector:last-child {
+    top: -10px!important;
+    margin-top: 0!important;
+    left: 937px!important;
+}
+
+.single .highcharts-range-selector {
+    top: 30px!important;
+}
+
+
+
+}
+
+.pais .highcharts-range-selector-buttons{
+	display:none;
+}
+.pais .highcharts-range-selector-buttons text tspan:hover .highcharts-button{
+	display:block;
+}
+
+.pais .highcharts-legend{
+	    transform: translate(0,536px);
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.tabs-nav{
+		display:none;
+		
+	}
+	.tab-mobile{
+		display:block;
+		background:#f5f9fc;
+		width:100%;
+		padding:39px 0 10px 30px;
+	}
+	.strategies{
+		display:none;
+		position:absolute;
+	top:207px;
+	left:47px;
+	}
+	.strategy{
+		font-family:'OSLight';
+		font-size:27px;
+		 color: #516b7a;
+		 display:inline-block;
+		 line-height:36px; 		 
+		
+		
+	
+	}
+	.strategy span{
+		border-bottom:2px solid #d7b87d;
+	}
+
+	.strategy:hover, .strategy:focus{
+		 color: #516b7a;
+		 background:none;
+		 outline:none;
+	}
+	.strategy:after{
+		 content: "";
+   		 background: url(images/triangle.png) center no-repeat;
+	    padding-left: 30px;
+}
+
+.tri:after{
+	content:"";
+ background: url(images/triangle-top.png) center no-repeat;
+  padding-left:30px;	
+	
+}
+
+.strategies{
+	display:none;
+	position:absolute;
+	border:1px solid #617a88;
+	-webkit-border-radius:0 0  25px 25px;
+	-moz-border-radius:0 0  25px 25px;
+	border-radius:0 0  25px 25px;
+	border-top:none;
+	width:300px;
+	right:-10px;
+	padding:23px 0 13px 26px;
+	background:#f6f9fb;
+	z-index:10;
+	top:236px;
+	
+	
+}
+.strategies li{
+	margin-bottom:15px;
+	text-align:left;
+	
+}
+.strategies li:first-child{
+	display:none;
+}
+.strategies li a{
+	color:#8b9ea9;
+	font-size:27px;
+
+}
+
+	.graph_background{
+		position:relative;
+	}
+	
+	.tab{
+		padding:0;
+	}
+	.more-button{
+		display:block;
+		position:absolute;
+		top:210px;
+		vertical-align:top;
+		color:#d7b87d;
+		text-transform:uppercase;
+		border-bottom:1px solid #d7b87d;
+		
+		
+		
+	}
+}
+
+.pr{
+	position:relative;
+}
+.period{
+	font-size:16px;
+	color:#516b7a;
+	display:block
+}
+.period:before{
+	content:"";
+	 background: url(images/triangle.png) center no-repeat;
+	 padding-left:30px;	
+	
+}
+.trio:before{
+	content:"";
+ background: url(images/triangle-top.png) center no-repeat;
+  padding-left:30px;	
+	
+}
+
+.periods ul{
+	display:none;
+	position:absolute;
+	border:1px solid #617a88;
+	-webkit-border-radius:0 0  25px 25px;
+	-moz-border-radius:0 0  25px 25px;
+	border-radius:0 0  25px 25px;
+	border-top:none;
+	width:172px;
+	right:-10px;
+	padding:23px 0 13px 26px;
+	background:#f6f9fb;
+	
+	
+}
+.periods ul li{
+	margin-bottom:15px;
+	text-align:left;
+	
+}
+.periods ul li a{
+	color:#8b9ea9;
+	border-bottom:1px dashed #d3af6b;
+
+}
+.periods ul li a.active{
+	border-bottom:1px solid #d3af6b;
+	font-weight:bold;
+	color:#d3af6b;
+	
+	
+}
+#ui-datepicker-div{
+	background:#f6f9fb;
+	border: 1px solid #8b9ea9;
+	margin-top:10px;
+	padding:21px 24px;
+	color:#dcc18f;
+	
+}
+#ui-datepicker-div table thead, #ui-datepicker-div table tbody{
+	background:#f6f9fb;
+}
+.ui-datepicker th{
+	font-weight:normal;
+	text-transform:uppercase;
+}
+#ui-datepicker-div .ui-datepicker-prev{
+	 background: url(images/calendar-left.png) center no-repeat;
+	 width:14px;
+	 height:25px;
+	
+	
+}
+#ui-datepicker-div .ui-datepicker-prev-hover{
+	 outline:none;
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+	 top: 10px;
+	 outline:none;
+}
+.ui-corner-all{
+	border:none
+}
+#ui-datepicker-div .ui-datepicker-next{
+	 background: url(images/calendar-right.png) center no-repeat;
+	 width:14px;
+	 height:25px;
+	
+	
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+	border:none;
+}
+select.ui-datepicker-month, .ui-datepicker-year{
+	border:1px solid #dcc18f;
+	color:#4c6878;
+	  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background:#f6f9fb;
+  outline:none;
+	
+	
+}
+#ui-datepicker-div .ui-state-default, #ui-datepicker-div .ui-widget-content .ui-state-default, #ui-datepicker-div  .ui-widget-header .ui-state-default{
+	border:none;
+	background:none;
+	color:#4c6878;
+}
+.ui-datepicker-current-day {
+	background:#d3af6b;
+	
+}
+.highcharts-range-selector{
+	opacity:0;
+}
+.show-pk .ui-state-default{
+	background:#cdd7df;
+}
+.show-pk .ui-tabs .ui-tabs-nav li a {
+	font-family:"OSLight";
+}
+
+/* правила ТОЛЬКО для Edge */
+/*@supports (-ms-ime-align:auto) {
+	
+.highcharts-label-box{
+stroke-width: 1!important;
+    width: 77px;
+    height: 1px;
+	
+    stroke: #d3af6b!important;
+    x: 14px;
+    y: 20px;
+}
+.highcharts-range-input text{
+	
+}
+
+.highcharts-button-box{
+    stroke-width: 2;
+    height: 1px;
+    stroke:#d3af6b;
+    stroke-dasharray:5,5;
+
+    width:50px;
+    x1: 10;
+    y1: 10;
+	 x2: 190;
+    y1: 10;
+}
+}*/
